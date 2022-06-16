@@ -30,7 +30,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("●** ᴍᴇʀʜᴀʙᴀ ❤️**\n\n● **ɢʀᴜʙᴜɴᴜᴢᴅᴀᴋɪ ᴛᴜᴍ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʙɪʟɪʀɪᴍ , ʙᴇɴɪ ɢʀᴜʙᴜɴᴜᴢᴀ ᴇᴋʟᴇʏɪᴘ ʏᴇᴛᴋɪ ᴠᴇʀᴍᴇɴɪᴢ ɢᴇʀᴇᴋɪʀ . . !** \n\n● **ᴛᴜᴍ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴᴍᴇᴋ ɪᴄɪɴ /help ᴋᴏᴍᴜᴛᴜɴᴜ ᴋᴜʟʟᴀɴɪɴ . . !**",
+  await event.reply("●** Merhaba 🇹🇷**\n\n● **Grubunuzdaki tüm kullanıcılara etiket atabilirim,Beni grubunuza ekleyip yetki vermeniz gerekir.** \n\n● **ᴛᴜᴍ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴᴍᴇᴋ ɪᴄɪɴ /help ᴋᴏᴍᴜᴛᴜɴᴜ ᴋᴜʟʟᴀɴɪɴ . . !**",
                     buttons=(
                    
 		      [Button.url('🎉  Beni Gruba Ekle  🎉', 'https://t.me/Electrataggerbot?startgroup=a')],
@@ -41,7 +41,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "📝 **ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ **\n\n**» /utag < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /cancel => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !**"
+  helptext = "📝 **Etiket Komutları **\n\n**» /utag < mesajınız > \Gruptaki kullanıcılara 5-li etiket atar.!**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /cancel => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !**"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎉  Beni Gruba Ekle  🎉', 'https://t.me/ElectraTaggerbot?startgroup=a')],
@@ -54,7 +54,7 @@ async def help(event):
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**📝 ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ\n\n» /utag < ᴍᴇsᴀᴊɪɴɪᴢ > => ɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !\n» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > => ɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !\n» /cancel => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !\n\n✵ ʙɪʀ ᴄᴏᴋ ᴏᴢᴇʟʟɪɢᴇ sᴀʜɪᴘ @StarTaggerBot 'ᴜ ɢʀᴜʙᴜɴᴜᴢᴀ ʀᴀʜᴀᴛʟɪᴋʟᴀ ᴇᴋʟᴇʏɪᴘ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ . . ! **"
+  helptext = "**📝 Etiket Komutları\n\n» /utag < Mesajınız > => Gruptaki kullanıcılara 5-li etiket atar. !\n» /tag  < Mesajınız > => Gruptaki kullanıcılara tek tek etiket atar!\n» /cancel => Etiketleme işlemini durdurur!\n\n✵ Bir çok özelliğe sahip @ElectraTaggerbot 'u grububuza ekleyip rahatlıkla kullanabilirsiniz ! **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎉  Botu Gruba Ekle  🎉', 'https://t.me/ElectraTaggerbot?startgroup=a')],
