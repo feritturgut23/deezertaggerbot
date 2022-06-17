@@ -47,7 +47,7 @@ async def help(event):
                       [Button.url('📍  Beni Gruba Ekle  📍', 'https://t.me/ElectraTaggerbot?startgroup=a')],
                       [Button.url('💬 Destek Grubu  💬',  'https://t.me/SohbetGaribanlarTr')],
                       [Button.url('😎  Developer  😎', 'https://t.me/Magandasahip')],
-                      [Button.url('📍  Kanal  📍', 'https://t.me/Magandasahip')],
+                      [Button.url('📍  Kanal  📍', 'https://t.me/ElectraResmi')],
                     ),
                     link_preview=False
                    )
